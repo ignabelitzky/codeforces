@@ -16,3 +16,16 @@ int main() {
     std::cout << intersection.size() << std::endl;
     return 0;
 }
+
+
+/*
+ * This way is more simple:
+ *
+ * #include <bits/stdc++.h>
+ *
+ * int main() {
+ *      int n, a, b;
+ *      std::cin >> n >> a >> b;
+ *      std::cout << std::min(n-1, b+1) << std::endl;
+ *      return 0;
+ * }
